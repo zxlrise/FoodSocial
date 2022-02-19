@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ms-registry
+
+# 配置 Eureka Server 注册中心
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+logging:
+  pattern:
+    console: '%d{2100-01-01 13:14:00.666} [%thread] %-5level %logger{50} - %msg%n'

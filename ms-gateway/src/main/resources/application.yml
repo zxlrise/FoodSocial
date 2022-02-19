@@ -1,0 +1,86 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: ms-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启配置注册中心进行路由功能
+          lower-case-service-id: true # 将服务名称转小写
+      routes:
+        - id: ms-diners
+          uri: lb://ms-diners
+          predicates:
+            - Path=/diners/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-oauth2-server
+          uri: lb://ms-oauth2-server
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-seckill
+          uri: lb://ms-seckill
+          predicates:
+            - Path=/seckill/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-follow
+          uri: lb://ms-follow
+          predicates:
+            - Path=/follow/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-feeds
+          uri: lb://ms-feeds
+          predicates:
+            - Path=/feeds/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-points
+          uri: lb://ms-points
+          predicates:
+            - Path=/points/**
+          filters:
+            - StripPrefix=1
+
+        - id: ms-restaurants
+          uri: lb://ms-restaurants
+          predicates:
+            - Path=/restaurants/**
+          filters:
+            - StripPrefix=1
+
+secure:
+  ignore:
+    urls: # 配置白名单路径
+      - /actuator/**
+      - /auth/oauth/**
+      - /diners/signin
+      - /diners/send
+      - /diners/checkPhone
+      - /diners/register
+      - /seckill/add
+      - /restaurants/detail
+
+# 配置 Eureka Server 注册中心
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+
+logging:
+  pattern:
+    console: '%d{2100-01-01 13:14:00.666} [%thread] %-5level %logger{50} - %msg%n'
