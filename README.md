@@ -80,8 +80,6 @@
 
 文档是对项目开发过程中遇到的一些问题的详细记录，主要是为了帮助没有基础的小伙伴快速理解这个项目。
 
-文档是对项目开发过程中遇到的一些问题的详细记录，主要是为了帮助没有基础的小伙伴快速理解这个项目。
-
 1. [需求分析与数据库设计](https://github.com/zxlrise/FoodSocial/wiki/1.%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1) 
 2. [认证中心代码逻辑](https://github.com/zxlrise/FoodSocial/wiki/2.%E8%AE%A4%E8%AF%81%E4%B8%AD%E5%BF%83%E4%BB%A3%E7%A0%81%E9%80%BB%E8%BE%91)
 3. [用户注册](https://github.com/zxlrise/FoodSocial/wiki/3.%E7%94%A8%E6%88%B7%E6%B3%A8%E5%86%8C)
