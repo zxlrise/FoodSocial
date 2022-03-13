@@ -89,5 +89,7 @@
 7. [用户签到功能](https://github.com/zxlrise/FoodSocial/wiki/7.%E7%94%A8%E6%88%B7%E7%AD%BE%E5%88%B0%E5%8A%9F%E8%83%BD)
 8. [用户积分功能](https://github.com/zxlrise/FoodSocial/wiki/8.%E7%94%A8%E6%88%B7%E7%A7%AF%E5%88%86%E5%8A%9F%E8%83%BD)
 9. [附近的人功能](https://github.com/zxlrise/FoodSocial/wiki/9.%E9%99%84%E8%BF%91%E7%9A%84%E4%BA%BA)
+10. [缓存餐厅](https://github.com/zxlrise/FoodSocial/wiki/10.%E7%BC%93%E5%AD%98%E9%A4%90%E5%8E%85)
+11. [最新餐厅评论](https://github.com/zxlrise/FoodSocial/wiki/11.%E6%9C%80%E6%96%B0%E9%A4%90%E5%8E%85%E8%AF%84%E8%AE%BA)
 
 
