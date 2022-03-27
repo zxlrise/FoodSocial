@@ -22,7 +22,6 @@
 | 餐厅缓存     | Hash            | HSET、HGETALL、HINCRBY             | 存储餐厅热点数据                     |
 | 最新餐厅评论 | List            | LPUSH、LRANGE                      | 存储最新餐厅评论                     |
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/16c5ae778a06401ca14d51a49e458231.png){:width="60%"}
 
 ### 2.1、单点登录
 
