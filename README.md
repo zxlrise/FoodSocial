@@ -22,6 +22,8 @@
 | 餐厅缓存     | Hash            | HSET、HGETALL、HINCRBY             | 存储餐厅热点数据                     |
 | 最新餐厅评论 | List            | LPUSH、LRANGE                      | 存储最新餐厅评论                     |
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/16c5ae778a06401ca14d51a49e458231.png)
+
 ### 2.1、单点登录
 
 我们使用 Spring Security 和 OAuth2 实现了授权认证中心及单点登录的功能。
