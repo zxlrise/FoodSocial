@@ -4,7 +4,7 @@
 
 美食社交APP后台API接口设计，涉及APP中用户、好友、订单为基础的相关业务，分为用户、优惠券、好友、Feed、订单五个微服务。完成用户登录、交友、发朋友圈以及购买优惠券这个业务流程。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2b0c420ac5f5490b8f6c972a2f5d99d4.png){:width="60%"}
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2b0c420ac5f5490b8f6c972a2f5d99d4.png)
 
 ## 2、应用总结
 
@@ -22,7 +22,7 @@
 | 餐厅缓存     | Hash            | HSET、HGETALL、HINCRBY             | 存储餐厅热点数据                     |
 | 最新餐厅评论 | List            | LPUSH、LRANGE                      | 存储最新餐厅评论                     |
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/16c5ae778a06401ca14d51a49e458231.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/16c5ae778a06401ca14d51a49e458231.png){:width="60%"}
 
 ### 2.1、单点登录
 
