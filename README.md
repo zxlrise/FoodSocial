@@ -4,7 +4,7 @@
 
 美食社交APP后台API接口设计，涉及APP中用户、好友、订单为基础的相关业务，分为用户、优惠券、好友、Feed、订单五个微服务。完成用户登录、交友、发朋友圈以及购买优惠券这个业务流程。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2b0c420ac5f5490b8f6c972a2f5d99d4.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2b0c420ac5f5490b8f6c972a2f5d99d4.png){:width="60%"}
 
 ## 2、应用总结
 
